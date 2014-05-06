@@ -25,7 +25,7 @@
 	$user_id = $_COOKIE["user_id"];
 
 	# connect to the database
-	if(!mysql_connect("cs445sql", "motsuka", "EL611mot"))
+	if(!mysql_connect("cs445sql", "********", "********"))
 		die ("Couldn't connect to mysql server!<br>");
 	if(!mysql_select_db("gow"))
 		die ("Couldn't select a database!<br>");

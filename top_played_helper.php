@@ -11,7 +11,7 @@
 	}
 
 	# connect to the database
-	$db_connection = mysql_pconnect("cs445sql", "motsuka", "EL611mot");
+	$db_connection = mysql_pconnect("cs445sql", "********", "********");
 	if(!$db_connection)
 		die ("Couldn't connect to mysql server!<br>");
 	if(!mysql_select_db("gow", $db_connection))

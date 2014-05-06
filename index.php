@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" and isset($_POST["deletecookie"])) {
 } else if($_SERVER["REQUEST_METHOD"] === "POST"){
 	if (isset($_POST["user_id"]) && $_POST["user_id"] != "" && isset($_POST["password"]) && $_POST["password"] != "") {
 		# connect to the database
-		if(!mysql_connect("cs445sql", "motsuka", "EL611mot"))
+		if(!mysql_connect("cs445sql", "********", "********"))
 			die ("Couldn't connect to mysql server!<br>");
 		if(!mysql_select_db("gow"))
 			die ("Couldn't select a database!<br>");
