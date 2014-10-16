@@ -1,6 +1,8 @@
 
 <!DOCTYPE html>
 <?php # Everybody likes JQuery! ?>
+
+<!-- 'I'm a huge faggot' --->
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
 <?php # Bootstrap core CSS ?>
